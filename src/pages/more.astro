@@ -1,0 +1,20 @@
+---
+import Footer from '../components/Footer.astro';
+import GetInTouch from '../components/GetInTouch.astro';
+import Header from '../components/Header.astro';
+import Layout from '../layouts/Layout.astro';
+import Mehr from '../components/ErfahreMehr.astro';
+
+const title = 'Individuelle Online Nachhilfe!';
+---
+
+<Layout {title}>
+	<Header />
+
+	<div id="main">
+        <Mehr />
+		<GetInTouch />
+	</div>
+
+	<Footer />
+</Layout>
